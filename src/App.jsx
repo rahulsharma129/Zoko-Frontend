@@ -17,7 +17,7 @@ import EditItem from './pages/EditItem'
 import getShopsByCity from './hooks/getShopsByCity'
 import getItemsByCity from './hooks/getItemsByCity'
 import CartPage from './pages/CartPage'
-import CheckoutPage from './pages/CheckOutPage'
+import CheckoutPage from './pages/CheckoutPage'
 import OrderPlaced from './pages/OrderPlaced'
 import MyOrders from './pages/MyOrders'
 import getOwnerPendingOrders from './hooks/getOwnerPendingOrders'
@@ -27,7 +27,7 @@ import updateLocation from './hooks/updateLocation'
 import TrackOrderPage from './pages/TrackOrderPage'
 import MyDeliveredOrders from './pages/MyDeliveredOrders'
 import ShopItems from './pages/ShopItems'
-export const serverUrl="https://zoko-backend.onrender.com/"
+export const serverUrl="localhost:8000"
 
 function App() {
   const {userData,allShops,socket}=useSelector(state=>state.user)
